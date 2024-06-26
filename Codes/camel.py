@@ -6,4 +6,5 @@ def main():
             print("_"+i.lower(),end="")
         else:
             print(i,end="")
-main()
+if __name__ == "__main__":
+    main()
