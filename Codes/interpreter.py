@@ -32,4 +32,5 @@ def main():
     result = float(result)
     print(f"{result:.1f}")
 
-main()
+if __name__ == "__main__":
+    main()
