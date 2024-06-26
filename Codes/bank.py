@@ -7,5 +7,5 @@ def main():
         print("$20")
     else:
         print("$100")
-
-main()
+if __name__ == "__main__":
+    main()
