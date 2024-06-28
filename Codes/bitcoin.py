@@ -14,8 +14,8 @@ def main():
         response.raise_for_status()  
         data = response.json()
         price = data["bpi"]["USD"]["rate_float"]
-        total_cost = bitcoins * price
-        print(f"${total_cost:,.4f}")   
+        total = bitcoins * price
+        print(f"${total:,.4f}")   
     except requests.RequestException:
         sys.exit("Failed to retrieve Bitcoin price")
 if __name__ == "__main__":
